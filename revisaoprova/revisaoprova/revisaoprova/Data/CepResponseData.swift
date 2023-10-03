@@ -1,0 +1,24 @@
+import Foundation
+
+protocol CepResponseProtocol : AnyObject  {
+    func salvar(item: CepResponseData)
+}
+
+struct CepResponseData: Codable {
+    
+    let cep,
+        logradouro,
+        complemento,
+        bairro,
+        localidade,
+        uf,
+        ibge,
+        gia,
+        ddd,
+        siafi: String?
+    
+    public func toString() -> String {
+        return "\(cep!) -> \(logradouro!), \(bairro!), \(localidade!), \(uf!), DDD: \(ddd!)"
+    }
+    
+}

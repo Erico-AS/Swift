@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewControllerApi" customModule="Revisao_Prova" customModuleProvider="target">
+            <connections>
+                <outlet property="txtcep" destination="wpS-la-rmP" id="ogy-d7-76T"/>
+                <outlet property="txtresult" destination="OuD-MT-7Xb" id="u8K-w8-rCS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wpS-la-rmP">
+                    <rect key="frame" x="20" y="119" width="262" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQI-b8-u0i">
+                    <rect key="frame" x="302" y="118.66666666666669" width="71" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Busca"/>
+                    <connections>
+                        <action selector="searchTapped:" destination="-1" eventType="touchUpInside" id="rj6-AP-v1D"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OuD-MT-7Xb">
+                    <rect key="frame" x="20" y="173.66666666666669" width="353" height="539.33333333333326"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="883-5c-8EG">
+                    <rect key="frame" x="20" y="733" width="353" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Salvar"/>
+                    <connections>
+                        <action selector="btnSalvar:" destination="-1" eventType="touchUpInside" id="TzE-1J-BfJ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="mQI-b8-u0i" firstAttribute="centerY" secondItem="wpS-la-rmP" secondAttribute="centerY" id="11D-ZX-uSb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="OuD-MT-7Xb" secondAttribute="trailing" constant="20" id="2DQ-kU-NL0"/>
+                <constraint firstItem="883-5c-8EG" firstAttribute="top" secondItem="OuD-MT-7Xb" secondAttribute="bottom" constant="20" id="3cD-hM-BeA"/>
+                <constraint firstItem="883-5c-8EG" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="86T-av-unI"/>
+                <constraint firstItem="wpS-la-rmP" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="60" id="9FY-S9-46O"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mQI-b8-u0i" secondAttribute="trailing" constant="20" id="BE3-iq-Pqr"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="883-5c-8EG" secondAttribute="trailing" constant="20" id="RIz-tm-zrl"/>
+                <constraint firstItem="OuD-MT-7Xb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="X7C-h3-eck"/>
+                <constraint firstItem="OuD-MT-7Xb" firstAttribute="top" secondItem="mQI-b8-u0i" secondAttribute="bottom" constant="20" id="ixA-dk-AGU"/>
+                <constraint firstItem="wpS-la-rmP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="p3A-TN-efu"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="883-5c-8EG" secondAttribute="bottom" constant="50" id="wjr-xr-cEF"/>
+                <constraint firstItem="mQI-b8-u0i" firstAttribute="leading" secondItem="wpS-la-rmP" secondAttribute="trailing" constant="20" id="wyX-mT-g7m"/>
+            </constraints>
+            <point key="canvasLocation" x="130.53435114503816" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

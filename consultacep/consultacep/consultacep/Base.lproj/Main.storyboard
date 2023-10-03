@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="consultacep" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V2X-Q1-ZpO">
+                                <rect key="frame" x="20" y="149" width="185" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="OHD-Qy-SJJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMe-NT-0Oz">
+                                <rect key="frame" x="225" y="149" width="169" height="34"/>
+                                <state key="normal" title="Consultar"/>
+                                <connections>
+                                    <action selector="Consultar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l3F-rT-ECK"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yLi-d6-Xaw">
+                                <rect key="frame" x="20" y="203" width="374" height="639"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Digite o seu CEP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ng-f7-5OH">
+                                <rect key="frame" x="20" y="78" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yLi-d6-Xaw" secondAttribute="trailing" constant="20" id="2vn-rq-j2X"/>
+                            <constraint firstItem="8ng-f7-5OH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6vm-9R-nEP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yLi-d6-Xaw" secondAttribute="trailing" constant="20" id="PFg-dL-bIR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yLi-d6-Xaw" secondAttribute="bottom" constant="35" id="RMk-g1-Hcz"/>
+                            <constraint firstItem="yLi-d6-Xaw" firstAttribute="top" secondItem="V2X-Q1-ZpO" secondAttribute="bottom" constant="20" id="Z1T-Un-Nmd"/>
+                            <constraint firstItem="8ng-f7-5OH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="ZGr-1s-DjM"/>
+                            <constraint firstItem="yLi-d6-Xaw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="aaO-3n-Mkx"/>
+                            <constraint firstItem="WMe-NT-0Oz" firstAttribute="top" secondItem="8ng-f7-5OH" secondAttribute="bottom" constant="50" id="dwU-FC-owX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yLi-d6-Xaw" secondAttribute="bottom" constant="20" id="gHp-pG-TkT"/>
+                            <constraint firstItem="V2X-Q1-ZpO" firstAttribute="top" secondItem="8ng-f7-5OH" secondAttribute="bottom" constant="50" id="j1n-Te-2p5"/>
+                            <constraint firstItem="yLi-d6-Xaw" firstAttribute="top" secondItem="WMe-NT-0Oz" secondAttribute="bottom" constant="20" id="koG-Jc-MTF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8ng-f7-5OH" secondAttribute="trailing" constant="20" id="mg7-ET-gp7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WMe-NT-0Oz" secondAttribute="trailing" constant="20" id="qt6-Ej-CyO"/>
+                            <constraint firstItem="WMe-NT-0Oz" firstAttribute="leading" secondItem="V2X-Q1-ZpO" secondAttribute="trailing" constant="20" id="qwi-he-58v"/>
+                            <constraint firstItem="V2X-Q1-ZpO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="rMK-ti-S8X"/>
+                            <constraint firstItem="yLi-d6-Xaw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sQ3-sd-7yl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtCep" destination="V2X-Q1-ZpO" id="TUI-BK-2CJ"/>
+                        <outlet property="txtResultado" destination="yLi-d6-Xaw" id="x5I-Ya-1zg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="103.79464285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

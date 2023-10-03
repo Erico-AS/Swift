@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7AD8025C-1C0D-4B1B-B747-155E6D07D117"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B158EA4-3718-4F7C-81F1-7E7C0E704ABE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3D_Erico_10/Scenes/Search/SearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "searchPokemon(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC9CACAE-0CD0-478D-A69B-6D4A3C7E4C17"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3D_Erico_10/Scenes/Search/SearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "searchPokemon(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BB9276D-2E15-4DA7-B552-205A94016254"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3D_Erico_10/Scenes/Search/SearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "searchPokemon(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1BB9276D-2E15-4DA7-B552-205A94016254 - f27e1f67c3e2287d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_D_Erico_10.SearchViewController.searchPokemon(__C.UIBarButtonItem) -&gt; ()"
+                  moduleName = "3D_Erico_10"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cotemig/Desktop/erc/20092023/3D_Erico_10/3D_Erico_10/Scenes/Search/SearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "914">
+               </Location>
+               <Location
+                  uuid = "1BB9276D-2E15-4DA7-B552-205A94016254 - 577dc37dbf588e64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;_D_Erico_10.Pokemon, Alamofire.AFError&gt;) -&gt; () in _D_Erico_10.SearchViewController.searchPokemon(__C.UIBarButtonItem) -&gt; ()"
+                  moduleName = "3D_Erico_10"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cotemig/Desktop/erc/20092023/3D_Erico_10/3D_Erico_10/Scenes/Search/SearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "243">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDBE1156-752B-4D92-9542-7A571A2CB0C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3D_Erico_10/Scenes/Search/SearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "searchPokemon(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CDBE1156-752B-4D92-9542-7A571A2CB0C5 - 577dc37dbf588e01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;_D_Erico_10.Pokemon, Alamofire.AFError&gt;) -&gt; () in _D_Erico_10.SearchViewController.searchPokemon(__C.UIBarButtonItem) -&gt; ()"
+                  moduleName = "3D_Erico_10"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cotemig/Desktop/erc/20092023/3D_Erico_10/3D_Erico_10/Scenes/Search/SearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "370">
+               </Location>
+               <Location
+                  uuid = "CDBE1156-752B-4D92-9542-7A571A2CB0C5 - 577dc37dbf588e01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;_D_Erico_10.Pokemon, Alamofire.AFError&gt;) -&gt; () in _D_Erico_10.SearchViewController.searchPokemon(__C.UIBarButtonItem) -&gt; ()"
+                  moduleName = "3D_Erico_10"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cotemig/Desktop/erc/20092023/3D_Erico_10/3D_Erico_10/Scenes/Search/SearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "736">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8A348A2-66E2-4FBB-94CE-7F8E2290AB9D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3D_Erico_10/Scenes/Search/SearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "searchPokemon(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C58ED165-7F66-4C73-B44C-3FF7FE5EF04E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3D_Erico_10/Scenes/Search/SearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "searchPokemon(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C58ED165-7F66-4C73-B44C-3FF7FE5EF04E - 577dc37dbf588e01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;_D_Erico_10.Pokemon, Alamofire.AFError&gt;) -&gt; () in _D_Erico_10.SearchViewController.searchPokemon(__C.UIBarButtonItem) -&gt; ()"
+                  moduleName = "3D_Erico_10"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cotemig/Desktop/erc/20092023/3D_Erico_10/3D_Erico_10/Scenes/Search/SearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "370">
+               </Location>
+               <Location
+                  uuid = "C58ED165-7F66-4C73-B44C-3FF7FE5EF04E - 577dc37dbf588e01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;_D_Erico_10.Pokemon, Alamofire.AFError&gt;) -&gt; () in _D_Erico_10.SearchViewController.searchPokemon(__C.UIBarButtonItem) -&gt; ()"
+                  moduleName = "3D_Erico_10"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cotemig/Desktop/erc/20092023/3D_Erico_10/3D_Erico_10/Scenes/Search/SearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "736">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "680D38FD-8388-40E5-BA90-E59F80E66ABF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3D_Erico_10/Scenes/Search/SearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "searchPokemon(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75A8C097-A9D4-4209-BDF6-55AF9C620633"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3D_Erico_10/Scenes/Search/SearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "searchPokemon(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "75A8C097-A9D4-4209-BDF6-55AF9C620633 - 577dc37dbf588ea2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;_D_Erico_10.Pokemon, Alamofire.AFError&gt;) -&gt; () in _D_Erico_10.SearchViewController.searchPokemon(__C.UIBarButtonItem) -&gt; ()"
+                  moduleName = "3D_Erico_10"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cotemig/Desktop/erc/20092023/3D_Erico_10/3D_Erico_10/Scenes/Search/SearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1401">
+               </Location>
+               <Location
+                  uuid = "75A8C097-A9D4-4209-BDF6-55AF9C620633 - 577dc37dbf588ea2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;_D_Erico_10.Pokemon, Alamofire.AFError&gt;) -&gt; () in _D_Erico_10.SearchViewController.searchPokemon(__C.UIBarButtonItem) -&gt; ()"
+                  moduleName = "3D_Erico_10"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cotemig/Desktop/erc/20092023/3D_Erico_10/3D_Erico_10/Scenes/Search/SearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1449">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

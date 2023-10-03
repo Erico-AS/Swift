@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCD0548E2A4328BF00199D2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD0548D2A4328BF00199D2A /* AppDelegate.swift */; };
+		DCD054902A4328BF00199D2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD0548F2A4328BF00199D2A /* SceneDelegate.swift */; };
+		DCD054922A4328BF00199D2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD054912A4328BF00199D2A /* ViewController.swift */; };
+		DCD054952A4328BF00199D2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD054932A4328BF00199D2A /* Main.storyboard */; };
+		DCD054982A4328BF00199D2A /* consultacep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCD054962A4328BF00199D2A /* consultacep.xcdatamodeld */; };
+		DCD0549A2A4328C700199D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD054992A4328C700199D2A /* Assets.xcassets */; };
+		DCD0549D2A4328C700199D2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD0549B2A4328C700199D2A /* LaunchScreen.storyboard */; };
+		DCD054A82A4328C800199D2A /* consultacepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD054A72A4328C800199D2A /* consultacepTests.swift */; };
+		DCD054B32A4328C800199D2A /* consultacepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD054B22A4328C800199D2A /* consultacepUITests.swift */; };
+		DCD054C52A43316800199D2A /* Cep.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD054C42A43316800199D2A /* Cep.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCD054A42A4328C800199D2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCD054822A4328BF00199D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD054892A4328BF00199D2A;
+			remoteInfo = consultacep;
+		};
+		DCD054AF2A4328C800199D2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCD054822A4328BF00199D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD054892A4328BF00199D2A;
+			remoteInfo = consultacep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCD0548A2A4328BF00199D2A /* consultacep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = consultacep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD0548D2A4328BF00199D2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCD0548F2A4328BF00199D2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCD054912A4328BF00199D2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCD054942A4328BF00199D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCD054972A4328BF00199D2A /* consultacep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = consultacep.xcdatamodel; sourceTree = "<group>"; };
+		DCD054992A4328C700199D2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCD0549C2A4328C700199D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCD0549E2A4328C700199D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD054A32A4328C800199D2A /* consultacepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = consultacepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD054A72A4328C800199D2A /* consultacepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consultacepTests.swift; sourceTree = "<group>"; };
+		DCD054A92A4328C800199D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD054AE2A4328C800199D2A /* consultacepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = consultacepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD054B22A4328C800199D2A /* consultacepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consultacepUITests.swift; sourceTree = "<group>"; };
+		DCD054B42A4328C800199D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD054C42A43316800199D2A /* Cep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cep.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCD054872A4328BF00199D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD054A02A4328C800199D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD054AB2A4328C800199D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCD054812A4328BF00199D2A = {
+			isa = PBXGroup;
+			children = (
+				DCD0548C2A4328BF00199D2A /* consultacep */,
+				DCD054A62A4328C800199D2A /* consultacepTests */,
+				DCD054B12A4328C800199D2A /* consultacepUITests */,
+				DCD0548B2A4328BF00199D2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCD0548B2A4328BF00199D2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCD0548A2A4328BF00199D2A /* consultacep.app */,
+				DCD054A32A4328C800199D2A /* consultacepTests.xctest */,
+				DCD054AE2A4328C800199D2A /* consultacepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCD0548C2A4328BF00199D2A /* consultacep */ = {
+			isa = PBXGroup;
+			children = (
+				DCD054C32A43315000199D2A /* Data */,
+				DCD0548D2A4328BF00199D2A /* AppDelegate.swift */,
+				DCD0548F2A4328BF00199D2A /* SceneDelegate.swift */,
+				DCD054912A4328BF00199D2A /* ViewController.swift */,
+				DCD054932A4328BF00199D2A /* Main.storyboard */,
+				DCD054992A4328C700199D2A /* Assets.xcassets */,
+				DCD0549B2A4328C700199D2A /* LaunchScreen.storyboard */,
+				DCD0549E2A4328C700199D2A /* Info.plist */,
+				DCD054962A4328BF00199D2A /* consultacep.xcdatamodeld */,
+			);
+			path = consultacep;
+			sourceTree = "<group>";
+		};
+		DCD054A62A4328C800199D2A /* consultacepTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCD054A72A4328C800199D2A /* consultacepTests.swift */,
+				DCD054A92A4328C800199D2A /* Info.plist */,
+			);
+			path = consultacepTests;
+			sourceTree = "<group>";
+		};
+		DCD054B12A4328C800199D2A /* consultacepUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCD054B22A4328C800199D2A /* consultacepUITests.swift */,
+				DCD054B42A4328C800199D2A /* Info.plist */,
+			);
+			path = consultacepUITests;
+			sourceTree = "<group>";
+		};
+		DCD054C32A43315000199D2A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DCD054C42A43316800199D2A /* Cep.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCD054892A4328BF00199D2A /* consultacep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD054B72A4328C800199D2A /* Build configuration list for PBXNativeTarget "consultacep" */;
+			buildPhases = (
+				DCD054862A4328BF00199D2A /* Sources */,
+				DCD054872A4328BF00199D2A /* Frameworks */,
+				DCD054882A4328BF00199D2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = consultacep;
+			productName = consultacep;
+			productReference = DCD0548A2A4328BF00199D2A /* consultacep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCD054A22A4328C800199D2A /* consultacepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD054BA2A4328C800199D2A /* Build configuration list for PBXNativeTarget "consultacepTests" */;
+			buildPhases = (
+				DCD0549F2A4328C800199D2A /* Sources */,
+				DCD054A02A4328C800199D2A /* Frameworks */,
+				DCD054A12A4328C800199D2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCD054A52A4328C800199D2A /* PBXTargetDependency */,
+			);
+			name = consultacepTests;
+			productName = consultacepTests;
+			productReference = DCD054A32A4328C800199D2A /* consultacepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCD054AD2A4328C800199D2A /* consultacepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD054BD2A4328C800199D2A /* Build configuration list for PBXNativeTarget "consultacepUITests" */;
+			buildPhases = (
+				DCD054AA2A4328C800199D2A /* Sources */,
+				DCD054AB2A4328C800199D2A /* Frameworks */,
+				DCD054AC2A4328C800199D2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCD054B02A4328C800199D2A /* PBXTargetDependency */,
+			);
+			name = consultacepUITests;
+			productName = consultacepUITests;
+			productReference = DCD054AE2A4328C800199D2A /* consultacepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCD054822A4328BF00199D2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DCD054892A4328BF00199D2A = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					DCD054A22A4328C800199D2A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DCD054892A4328BF00199D2A;
+					};
+					DCD054AD2A4328C800199D2A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DCD054892A4328BF00199D2A;
+					};
+				};
+			};
+			buildConfigurationList = DCD054852A4328BF00199D2A /* Build configuration list for PBXProject "consultacep" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCD054812A4328BF00199D2A;
+			productRefGroup = DCD0548B2A4328BF00199D2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCD054892A4328BF00199D2A /* consultacep */,
+				DCD054A22A4328C800199D2A /* consultacepTests */,
+				DCD054AD2A4328C800199D2A /* consultacepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCD054882A4328BF00199D2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD0549D2A4328C700199D2A /* LaunchScreen.storyboard in Resources */,
+				DCD0549A2A4328C700199D2A /* Assets.xcassets in Resources */,
+				DCD054952A4328BF00199D2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD054A12A4328C800199D2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD054AC2A4328C800199D2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCD054862A4328BF00199D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD054922A4328BF00199D2A /* ViewController.swift in Sources */,
+				DCD054C52A43316800199D2A /* Cep.swift in Sources */,
+				DCD054982A4328BF00199D2A /* consultacep.xcdatamodeld in Sources */,
+				DCD0548E2A4328BF00199D2A /* AppDelegate.swift in Sources */,
+				DCD054902A4328BF00199D2A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD0549F2A4328C800199D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD054A82A4328C800199D2A /* consultacepTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD054AA2A4328C800199D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD054B32A4328C800199D2A /* consultacepUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCD054A52A4328C800199D2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD054892A4328BF00199D2A /* consultacep */;
+			targetProxy = DCD054A42A4328C800199D2A /* PBXContainerItemProxy */;
+		};
+		DCD054B02A4328C800199D2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD054892A4328BF00199D2A /* consultacep */;
+			targetProxy = DCD054AF2A4328C800199D2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCD054932A4328BF00199D2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD054942A4328BF00199D2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCD0549B2A4328C700199D2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD0549C2A4328C700199D2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCD054B52A4328C800199D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCD054B62A4328C800199D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCD054B82A4328C800199D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = consultacep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cotemig.Projein.consultacep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCD054B92A4328C800199D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = consultacep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cotemig.Projein.consultacep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCD054BB2A4328C800199D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = consultacepTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cotemig.Projein.consultacepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/consultacep.app/consultacep";
+			};
+			name = Debug;
+		};
+		DCD054BC2A4328C800199D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = consultacepTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cotemig.Projein.consultacepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/consultacep.app/consultacep";
+			};
+			name = Release;
+		};
+		DCD054BE2A4328C800199D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = consultacepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cotemig.Projein.consultacepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = consultacep;
+			};
+			name = Debug;
+		};
+		DCD054BF2A4328C800199D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = consultacepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cotemig.Projein.consultacepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = consultacep;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCD054852A4328BF00199D2A /* Build configuration list for PBXProject "consultacep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD054B52A4328C800199D2A /* Debug */,
+				DCD054B62A4328C800199D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD054B72A4328C800199D2A /* Build configuration list for PBXNativeTarget "consultacep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD054B82A4328C800199D2A /* Debug */,
+				DCD054B92A4328C800199D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD054BA2A4328C800199D2A /* Build configuration list for PBXNativeTarget "consultacepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD054BB2A4328C800199D2A /* Debug */,
+				DCD054BC2A4328C800199D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD054BD2A4328C800199D2A /* Build configuration list for PBXNativeTarget "consultacepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD054BE2A4328C800199D2A /* Debug */,
+				DCD054BF2A4328C800199D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCD054962A4328BF00199D2A /* consultacep.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCD054972A4328BF00199D2A /* consultacep.xcdatamodel */,
+			);
+			currentVersion = DCD054972A4328BF00199D2A /* consultacep.xcdatamodel */;
+			path = consultacep.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCD054822A4328BF00199D2A /* Project object */;
+}
